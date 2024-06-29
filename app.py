@@ -39,3 +39,9 @@ def serve():
     </html>
     """
 
+@app.get("/newfeature")
+def fun():
+    return {"This has been added later"}
+ 
+ 
+
